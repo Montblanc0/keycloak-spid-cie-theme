@@ -1,0 +1,230 @@
+/*!
+ * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url(../fonts/fa-solid-900.eot);
+  src: url(../fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/fa-solid-900.woff2) format("woff2"),
+    url(../fonts/fa-solid-900.woff) format("woff"),
+    url(../fonts/fa-solid-900.ttf) format("truetype"),
+    url(../fonts/fa-solid-900.svg#fontawesome) format("svg");
+}
+
+.fa,
+.fas {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+body {
+  font-size: 0.9em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.login-pf body {
+  /* background: url("../img/keycloak-bg.png") no-repeat center center fixed; */
+  background: #004e98;
+}
+
+.login-pf-page {
+  padding-top: 0;
+}
+
+.card-pf {
+  max-width: 600px;
+  border: 0;
+}
+
+#error-box p {
+  color: #000;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.spid-title {
+  display: block;
+  font-size: 2em;
+  font-weight: 600;
+  text-indent: 0.1rem;
+  margin-bottom: 15px;
+  border-color: #666666;
+  border-style: none;
+  border-width: 0 0 1px 0;
+}
+
+.spid-info {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.spid-action-box::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.spid-action-box > div {
+  width: 50%;
+}
+
+.spid-info-links {
+  float: left;
+  display: block;
+  text-align: left;
+}
+
+.spid-info-link {
+  display: block;
+}
+
+.spid-idp-button-box {
+  float: right;
+  font-size: 0.85em;
+  display: block;
+  position: relative;
+  margin-bottom: auto 0px 0px auto;
+  text-align: right;
+  margin-top: 1rem;
+}
+
+.spid-idp-button-menu {
+  text-align: center;
+}
+
+.spid-idp-button-relative {
+  top: 50px;
+}
+
+a.italia-it-button:any-link {
+  color: #fff;
+}
+
+.spid-logo {
+  max-width: 275px;
+  margin: 35px auto 0px auto;
+  text-align: center;
+}
+
+.tab-nav {
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+.tab-link .fas {
+  margin-right: 0.5rem;
+}
+
+.tab-nav li {
+  background-color: inherit;
+  float: left;
+  width: 50%;
+  height: 56.3333px;
+  border: none;
+  border-bottom: 1px solid #4f5f6f;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: "Titillium Web", HelveticaNeue, Helvetica Neue, Helvetica, Arial,
+    Lucida Grande, sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.tab-nav li.empty {
+  pointer-events: none;
+  cursor: default;
+  border-bottom: 1px solid #4f5f6f;
+}
+
+.tab-nav li.active {
+  border: 1px solid #4f5f6f;
+  border-bottom: none;
+}
+
+.tab-nav li > a:any-link {
+  display: block;
+  text-decoration: none;
+  padding: 14px 16px;
+  width: 100%;
+  height: 100%;
+}
+
+.tab-nav li:hover {
+  background-color: #ddd;
+}
+
+.tab-nav li > a,
+.tab-nav li > a:hover {
+  color: #4f5f6f;
+}
+
+.tab-nav li.active > a {
+  color: #00407d;
+  border-top: 4px solid var(--pf-global--primary-color--100);
+  padding-top: 10px;
+}
+
+.tab-content {
+  display: none;
+  padding: 10px 16.5px;
+  border: 1px solid #4f5f6f;
+  border-top: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.cie-idp-button-box {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  #kc-header-wrapper {
+    color: #ededed;
+  }
+}
+
+@media (max-width: 575px) {
+  .tab-nav li {
+    width: 100%;
+    border-bottom: none;
+  }
+
+  .tab-nav li.empty {
+    display: none;
+  }
+
+  .tab-nav li.active {
+    border-bottom: 1px solid #4f5f6f;
+  }
+
+  .tab-nav li.active:last-child {
+    border-bottom: none;
+  }
+
+  .tab-content {
+    border-top: 1px solid #4f5f6f;
+  }
+  .spid-action-box > div {
+    width: 100%;
+  }
+
+  .spid-idp-button-box {
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .spid-title {
+    font-size: 1.7em;
+  }
+}
